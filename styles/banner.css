@@ -1,0 +1,37 @@
+#footer{
+	background: sienna;
+	padding: 10px;
+	color: white
+}
+#menubar{
+	background: mintcream;
+
+}
+#menubar ul{
+	list-style-type: none;
+	display: flex;
+	background: #00000000;
+	padding: 10px;
+
+}
+#menubar ul li{
+	
+	background: lavender;
+	height: 30px;
+	padding: 10px;
+}
+#menubar ul li:hover a{
+	
+	color: white;
+}
+#menubar ul li:hover{
+	
+	background: saddlebrown;
+	cursor: pointer;
+}
+#ulmenu .active a{
+	color: white;
+} 
+#ulmenu .active{
+	background: saddlebrown;
+}
