@@ -3,8 +3,11 @@
 	padding: 10px;
 	color: white
 }
+#banner{
+	padding-left: 20%;
+}
 #menubar{
-	background: mintcream;
+	background: #b07840;
 
 }
 #menubar ul{
@@ -29,9 +32,87 @@
 	background: saddlebrown;
 	cursor: pointer;
 }
-#ulmenu .active a{
+#ulmenu .activebar a{
 	color: white;
 } 
-#ulmenu .active{
+#ulmenu .activebar{
 	background: saddlebrown;
+}
+
+/* slide images*/
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text{
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  animation-name: enlarge;
+  animation-duration: 4s;
+}
+@keyframes enlarge{
+	from {font-size: 15px;} 
+	to {font-size: 30px;}
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+  .text {font-size: 11px}
+
+ 
+}
+@media only screen and (max-width: 800px){
+	#slideimage{
+  	width: 100%;
+  }
 }

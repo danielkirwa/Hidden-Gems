@@ -1,37 +1,27 @@
-#footer{
-	background: sienna;
-	padding: 10px;
-	color: white
-}
-#menubar{
-	background: mintcream;
-
-}
-#menubar ul{
-	list-style-type: none;
+#smallcardsholder{
 	display: flex;
-	background: #00000000;
-	padding: 10px;
+	padding-left: 5%;
+}
 
+#smallcards{
+	width: 40%;
+	min-width: 400px;
+	background: #fff;
+	box-shadow: 0 0 10px grey;
+	margin: 10px;
+	padding: 5px;
 }
-#menubar ul li{
-	
-	background: lavender;
-	height: 30px;
-	padding: 10px;
+@media (max-width: 800px){
+	#smallcardsholder{
+	display: inline-block;
+	padding-left: 0;
+	width: 100%
 }
-#menubar ul li:hover a{
-	
-	color: white;
+	#smallcards{
+	width: 90%;
+	background: #fff;
+	box-shadow: 0 0 10px grey;
+	margin-top: 10px;
+	padding: 5px;
 }
-#menubar ul li:hover{
-	
-	background: saddlebrown;
-	cursor: pointer;
-}
-#ulmenu .active a{
-	color: white;
-} 
-#ulmenu .active{
-	background: saddlebrown;
 }
