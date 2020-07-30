@@ -1,0 +1,57 @@
+#hiddengemsservice{
+	background: #fff;
+	width: 80%;
+	padding: 5px;
+	box-shadow: 0 15px 10px -15px gray;
+	margin-left: 10%;
+	font-size: 24px;
+}
+#hiddengemsservice li{
+	font-style: italic;
+}
+#hiddengemsbio{
+	background: #fff;
+	width: 80%;
+	padding: 5px;
+	box-shadow: 0 15px 10px -15px gray;
+	margin-left: 10%;
+	font-size: 24px;
+}
+#hiddengemsvision{
+	background: #fff;
+	width: 80%;
+	padding: 5px;
+	box-shadow: 0 15px 10px -15px gray;
+	margin-left: 10%;
+	font-size: 24px;
+}
+#hiddengemscommunication{
+	background: #fff;
+	width: 80%;
+	padding: 5px;
+	box-shadow: 0 15px 10px -15px gray;
+	margin-left: 10%;
+	font-size: 24px;
+}
+@media only screen and (max-width: 600px){
+	#hiddengemsservice{
+	
+	font-size: 14px;
+}
+#hiddengemsservice li{
+	font-style: italic;
+}
+#hiddengemsbio{
+	
+	font-size: 18px;
+}
+#hiddengemsvision{
+	
+	font-size: 18px;
+}
+#hiddengemscommunication{
+	
+	font-size: 18px;
+}
+
+}

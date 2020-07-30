@@ -1,0 +1,60 @@
+#aboutkenya{
+	width: 80%;
+	margin-left: 10%;
+	box-shadow: 0 0 10px grey;
+	font-size: 24px;
+	padding: 10px;
+}
+#kenaydestination{
+	width: 100%;
+	display: flex;
+	padding: 10px;
+	background: #fff;
+}
+#destinationcard{
+	width: 30%;
+	background: #f1f1f1;
+	box-shadow: 0 15px 10px -10px brown;
+	padding: 5px;
+	margin: 5px;
+}
+#destinationholder button{
+	width: 48%;
+	color: black;
+	border-radius: 10px;
+	font-size: 18px;
+	height: 36px;
+	cursor: pointer;
+}
+#btnshare{
+	background: dodgerblue;
+}
+#btnschedule{
+	background: brown;
+}
+#btnshare:hover{
+	background: skyblue;
+}
+#btnschedule:hover{
+	background: #652121;
+}
+@media only screen and (max-width: 650px){
+	#destinationholder button{
+  	width: 100%;
+  	font-size: 18px;
+  	height: 30px;
+  }
+  #kenaydestination{
+	width: 100%;
+	display: inline-block;
+	padding: 10px;
+	background: #fff;
+}
+#destinationcard{
+	width: 90%;
+	background: #f1f1f1;
+	box-shadow: 0 15px 10px -10px brown;
+	padding: 5px;
+	margin: 5px;
+}
+}

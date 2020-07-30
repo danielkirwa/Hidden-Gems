@@ -1,7 +1,7 @@
 #footer{
 	background: #f1F1F1;
 	padding: 10px;
-	color: black;
+	display: flex;
 }
 #banner{
 	width: 40%;
@@ -59,8 +59,8 @@
   margin: auto;
 }
 #slideimage{
-  	width: 80%;
-  	margin-left: 9%;
+  	width: 100%;
+  	
   }
 
 /* Caption text */
@@ -107,19 +107,20 @@
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 3s;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .1} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .1} 
   to {opacity: 1}
+ 
 }
 
 /* On smaller screens, decrease text size */
