@@ -1,0 +1,28 @@
+#tourcardsubholder{
+	width: 100%;
+	padding-left: 0%;
+	display: flex;
+	overflow: hidden;
+
+}
+#tourcard{
+	width: 45%;
+	margin: 10px;
+	padding-left: 5px;
+	background: #f1f1f1;
+	box-shadow: 0 15px 10px -10px brown;
+}
+@media (max-width: 800px){
+	#tourcardsubholder{
+	display: inline-block;
+	padding-left: 0;
+	width: 100%
+	margin-left: 0px;
+}
+	#tourcard{
+	width: 100%;
+	background: #f1f1f1;
+	box-shadow: 0 15px 10px -10px brown;
+	margin-top: 10px;
+	padding: 5px;
+}

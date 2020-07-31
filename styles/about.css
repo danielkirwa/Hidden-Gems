@@ -35,23 +35,28 @@
 }
 @media only screen and (max-width: 600px){
 	#hiddengemsservice{
-	
+	width: 100%;
+	margin-left: 0;
 	font-size: 14px;
 }
 #hiddengemsservice li{
 	font-style: italic;
+
 }
 #hiddengemsbio{
-	
+	width: 100%;
 	font-size: 18px;
+	margin-left: 0;
 }
 #hiddengemsvision{
-	
+	width: 100%;
 	font-size: 18px;
+	margin-left: 0;
 }
 #hiddengemscommunication{
-	
+	width: 100%;
 	font-size: 18px;
+	margin-left: 0;
 }
 
 }

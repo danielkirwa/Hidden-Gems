@@ -57,4 +57,11 @@
 	padding: 5px;
 	margin: 5px;
 }
+#aboutkenya{
+	width: 100%;
+	margin-left: 0%;
+	box-shadow: 0 0 10px grey;
+	font-size: 18px;
+	padding: 5px;
+}
 }
