@@ -12,6 +12,58 @@
 	background: #f1f1f1;
 	box-shadow: 0 15px 10px -10px brown;
 }
+
+#tourcard button{
+	width: 48%;
+	color: black;
+	border-radius: 10px;
+	font-size: 18px;
+	height: 36px;
+	cursor: pointer;
+}
+#btnshare{
+	background: dodgerblue;
+}
+#btnschedule{
+	background: brown;
+}
+#btnshare:hover{
+	background: skyblue;
+}
+#btnschedule:hover{
+	background: #652121;
+}
+
+/*popupschedulecard*/
+
+#btnsubmit{
+	background: dodgerblue;
+}
+#btnclose{
+	background: brown;
+}
+#btnsubmit:hover{
+	background: skyblue;
+}
+#btnclose:hover{
+	background: #652121;
+}
+#divschedule{
+
+	background: #f1f1f1;
+	z-index: 1000;
+	display: none;
+	position: fixed;
+	border-radius: 10px;
+	box-shadow: 0 0 20px  brown;
+	top: 50%;
+	left:50%;
+	
+	padding: 10px;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+
+}
 @media (max-width: 800px){
 	#tourcardsubholder{
 	display: inline-block;
@@ -19,6 +71,11 @@
 	width: 100%
 	margin-left: 0px;
 }
+#tourcard button{
+  	width: 90%;
+  	font-size: 18px;
+  	height: 30px;
+  }
 	#tourcard{
 	width: 100%;
 	background: #f1f1f1;

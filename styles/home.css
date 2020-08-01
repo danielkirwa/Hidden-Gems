@@ -11,6 +11,28 @@
 	margin: 10px;
 	padding: 5px;
 }
+
+
+#smallcards button{
+	width: 48%;
+	color: black;
+	border-radius: 10px;
+	font-size: 18px;
+	height: 36px;
+	cursor: pointer;
+}
+#btnshare{
+	background: dodgerblue;
+}
+#btnschedule{
+	background: brown;
+}
+#btnshare:hover{
+	background: skyblue;
+}
+#btnschedule:hover{
+	background: #652121;
+}
 @media (max-width: 800px){
 	#smallcardsholder{
 	display: inline-block;
