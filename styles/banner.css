@@ -137,7 +137,7 @@
 
 /*new banner */
  #maincontainer{
-  	margin-top:130px;
+  	margin-top:250px;
   	padding:15px 15px;
   }
 #navbar {
@@ -198,6 +198,9 @@
     float: none;
   }
   #maincontainer{
-  	margin-top: 330px;
+  	margin-top: 350px;
+  }
+  #footer{
+  	width: 100%;
   }
 }
