@@ -10,22 +10,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<!-- 
-	<div id="bannerhoder">
-	<div id="banner">
-		<img src="images/hiddengemlogo.png" alt="org logo" width="90%">
-	</div>
-	<div id="menubar">
-		<ul id="ulmenu">
-			<li class="activebar"><a href="#">Home</a></li>
-			<li><a href="#">Kenya</a></li>
-			<li><a href="#">Trips</a></li>
-			<li><a href="#">About us</a></li>
-		</ul>
-	</div>
-</div><br>
--->
-<!-- strat-->
 <div id="navbar">
   <a href="#default" id="logo"><img src="images/hiddengemlogo2.png" alt="org logo" width="40%"></a>
   <div id="navbar-right">
@@ -61,6 +45,11 @@ recreational activities.</i></b><br>
 Full board
 Ol Tukai Lodge<br>
 <b><i>Day 4--Depart for NBO</i></b><br>
+<p style="color: brown;">
+				<b>
+				Price : Ksh. 45,000 - 48,000
+				</b>
+			</p>
 
 
 <button id="btnschedule" onclick="show()">Schedule</button><button id="btnshare">Share</button>
@@ -69,12 +58,12 @@ Ol Tukai Lodge<br>
 	<center><label style="color: brown;font-size: 24px;">fill in for book</label></center><br>
 	<label>4 DAYS AMBOSELI TOUR.</label>
 	<center><label>Name :</label>
-	<input type="text" name="" required=""><br><br>
+	<input type="text" name="" required="" id="txtname"><br><br>
 	<label>Phone :</label>
-	<input type="text" name="" required=""><br><br>
+	<input type="text" name="" required="" id="txtphone"><br><br>
 	<label>Date :</label>
-	<input type="date" name="" required=""><br><br></center>
-	<button id="btnsubmit"><a href="mailto:kirwadan03@gmail.com?subject=4 DAYS AMBOSELI TOUR.">Submit</a></button>
+	<input type="date" name="" required="" id="txtdate"><br><br></center>
+	<button id="btnsubmit"><a href="mailto:kirwadaniel03@gmail.com?subject=4 DAYS AMBOSELI TOUR." onclick="mailme()">Submit</a></button>
 	<button onclick="hide()" id="btnclose">Close</button>
 </div>
 
@@ -153,6 +142,11 @@ Full Board
 Sarova Mara Game Camp<br>
 <b><i>Day 5--Depart for NBO</i></b>
 Sarova Stanley Hotel
+<p style="color: brown;">
+				<b>
+				Price : Ksh. 63,000 - 67,000
+				</b>
+			</p>
 
 
 		</div>
@@ -194,7 +188,11 @@ Full board
 Satao Camp.<br>
 <b><i>Day 6-- Depart for NBO.</i></b><br>
 
-
+<p style="color: brown;">
+				<b>
+				Price : Ksh. 74,000 - 78,000
+				</b>
+			</p>
 
 
 
@@ -245,7 +243,7 @@ Satao Camp.<br>
 			</tr>
 			
 			<tr>
-				<td><a href="#" style="color: black"><img src="images/linkedin.png" width="24px"></a></td>
+				<td><a href="https://facebook.com/Dannydan" style="color: black"><img src="images/facebook.png" width="24px"></a></td>
 				<td><a href="#">Facebook</a></td>
 			</tr>
 			<tr>
@@ -296,6 +294,19 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+// mail function
+
+function mailme() {
+	// body...
+	var name = document.getElementById("txtname").value;
+	var phone = document.getElementById("txtphone").value;
+	var date = document.getElementById("txtdate").value;
+
+	console.log(name + phone + date);
+}
+
 	</script>
 </body>
 </html>
