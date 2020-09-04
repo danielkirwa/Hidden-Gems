@@ -52,16 +52,6 @@
 	background: saddlebrown;
 }
 
-/* slide images*/
-.slideshow-container {
-  width: 98%;
-  position: relative;
-  margin: auto;
-}
-#slideimage{
-  	width: 100%;
-  	
-  }
 
 /* Caption text */
 .text{
@@ -103,8 +93,21 @@
 .active {
   background-color: #717171;
 }
+/* slide animation */
 
-/* Fading animation */
+/* slide images*/
+.slideshow-container {
+  width: 98%;
+  position: relative;
+  margin: auto;
+}
+#slideimage{
+    width: 100%;
+    height: 300px;
+    
+  }
+
+/* Fading animation  */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 3s;
@@ -132,6 +135,7 @@
 @media only screen and (max-width: 800px){
 	#slideimage{
   	width: 100%;
+    height: 100%;
   }
 }
 
