@@ -21,6 +21,10 @@
 	height: 36px;
 	cursor: pointer;
 }
+#smallcards a{
+	color: black;
+	
+}
 #btnshare{
 	background: dodgerblue;
 }

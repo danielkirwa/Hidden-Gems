@@ -12,6 +12,9 @@
 	background: #f1f1f1;
 	box-shadow: 0 15px 10px -10px brown;
 }
+#tourcard a{
+	color: black;
+}
 
 #tourcard button{
 	width: 48%;
